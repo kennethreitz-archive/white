@@ -17,9 +17,7 @@ def main():
     # Prepare the additional command-line arguments.
     args = ' '.join(sys.argv[1:])
     # Spawn a subprocess.
-    c = delegator.run(
-        f"{python} {black} {args} --line-length {PEP8_LINE_LENGTH}"
-    )
+    c = delegator.run(f"{python} {black} {args} --line-length {PEP8_LINE_LENGTH}")
     # Print output.
     print(c.out)
     print(c.err)
