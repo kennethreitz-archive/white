@@ -16,7 +16,7 @@ URL = 'https://github.com/kennethreitz/red'
 EMAIL = 'me@kennethreitz.org'
 AUTHOR = 'Kenneth Reitz'
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = '0.0.1'
+VERSION = '0.0.2'
 # What packages are required for this module to be executed?
 REQUIRED = ['black>=18.3a0']
 # The rest you shouldn't have to touch too much :)
