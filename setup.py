@@ -10,8 +10,8 @@ from shutil import rmtree
 from setuptools import setup, Command
 
 # Package meta-data.
-NAME = 'red'
-DESCRIPTION = 'Black, but red instead.'
+NAME = 'white'
+DESCRIPTION = 'Black, but White instead (PEP8 line–lengths).'
 URL = 'https://github.com/kennethreitz/red'
 EMAIL = 'me@kennethreitz.org'
 AUTHOR = 'Kenneth Reitz'
@@ -83,7 +83,7 @@ setup(
     url=URL,
     # packages=find_packages(exclude=('tests',)),
     # If your package is a single module, use this instead of 'packages':
-    py_modules=['red'],
+    py_modules=['white'],
     # entry_points={
     #     'console_scripts': ['mycli=mymodule:cli'],
     # },
@@ -93,7 +93,7 @@ setup(
     classifiers=['License :: OSI Approved :: MIT License', 'Programming Language :: Python', 'Programming Language :: Python :: 3', 'Programming Language :: Python :: 3.6', 'Programming Language :: Python :: Implementation :: CPython', 'Programming Language :: Python :: Implementation :: PyPy'],
     # Trove classifiers
     # Full list: https://pypi.python.org/pypi?%3Aaction=list_classifiers
-    entry_points={'console_scripts': ['red=red:main']},
+    entry_points={'console_scripts': ['white=white:main']},
     # $ setup.py publish support.
     cmdclass={'upload': UploadCommand},
 )
