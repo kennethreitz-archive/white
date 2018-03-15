@@ -5,7 +5,7 @@ White: Black, but brighter (PEP8–inspired)
 Python code in a style that I prefer. I use it in all my projects.
 
 It is configurable, however, to change it's default line–length of ``88``
-charecters to, say, ``79``, like PEP8 recommends.
+charecters to, say, ``79``, like `PEP8 <http://pep8.org>`_ recommends.
 
 That is exactly what this tool does. It invokes ``$ black --line-length 79`` on your behalf.
 
