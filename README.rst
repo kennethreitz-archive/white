@@ -9,7 +9,7 @@ chars to, say, ``79``, like `PEP8 <http://pep8.org>`_ recommends.
 
 -----------
 
-That is exactly what this tool does. It invokes ``$ black --line-length 79`` on your behalf.
+That is *exactly* what **white** does. It invokes ``$ black --line-length 79`` on your behalf.
 
 
 Usage
