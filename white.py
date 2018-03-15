@@ -12,7 +12,7 @@ def get_black_executable():
 
 
 def main():
-    """Runs Red."""
+    """Runs White."""
     python, black = get_black_executable()
     # Prepare the additional command-line arguments.
     args = ' '.join(sys.argv[1:])
