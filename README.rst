@@ -1,5 +1,5 @@
-White: Black, but White instead (PEP8–inspired)
-===============================================
+White: Black, but brighter (PEP8–inspired)
+==========================================
 
 `Black <https://github.com/ambv/black>`_ is an amazing tool for auto–formatting
 Python code in a style that I prefer. I use it in all my projects.
