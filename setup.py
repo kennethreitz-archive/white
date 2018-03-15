@@ -18,7 +18,7 @@ AUTHOR = 'Kenneth Reitz'
 REQUIRES_PYTHON = '>=3.6.0'
 VERSION = '0.1.0'
 # What packages are required for this module to be executed?
-REQUIRED = ['black==18.3a0']
+REQUIRED = ['black==18.3a0;python_version>=3.6']
 # The rest you shouldn't have to touch too much :)
 # ------------------------------------------------
 # Except, perhaps the License and Trove Classifiers!
